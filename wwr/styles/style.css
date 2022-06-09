@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Indie+Flower&family=Joan&family=Kalam:wght@300;400;700&family=Pacifico&family=Satisfy&display=swap');
 #content{
     max-width: 1600px;
     margin: 0 auto;
@@ -6,6 +7,7 @@ nav a {
     text-align: center;
     color: #453132;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -17,11 +19,21 @@ nav a {
 main section {
     text-align: center;
 }
+main section img {
+    border: 10px solid #d9c2a3;
+}
 #background {
     height: 725px;
 }
 body {
-    background-color: whitesmoke
+    background-color: whitesmoke;
+    font-family: 'Indie Flower', 'Kalam', 'Joan';
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #c6bfb0;
@@ -32,9 +44,13 @@ nav a:hover {
     color: black;
 }
 .book, .join {
- background-color: #f8f8ff;
- color: #453132;
+ background-color: #453132;
+ color: white;
  text-decoration: none;
+ font-size: 18px;
+ padding: 15px 30px;
+ margin-top: 50px;
+ border-radius: 5px;
 }
 .book:hover, .join:hover {
  background-color: #453132;
@@ -45,21 +61,32 @@ background-color: #453132;
 }
 .msg {
     background-color: #c6bfb0;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer {
-    background-color: #c6bfb0;
+    background-color:pink;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
     color: #453132;
+    font-family: 'Pacifico', 'Satisfy', 'Cookie';
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 {
     color: #453132;
 }
 .msg h2 {
     color: #453132;
+    font-family: 'Pacifico', 'Satisfy', 'Cookie';
 }
+
 .msg p {
     color: #453132;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 footer h3 {
     color: #453132;
@@ -70,8 +97,12 @@ footer a {
 footer a:hover {
     color: white;
 }
+footer .social img {
+    padding-top: 15px;
+}
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width: 100%;
@@ -79,3 +110,21 @@ footer a:hover {
 .logo {
     width: 80px;
 }
+#logo_link{
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #d9c2a3;
+    width: 40%;
+}
+/*
+Let's add a border and a border-radius to a few elements.
+
+Add a border-radius of 5px to the .book, .join selector.
+
+Add a border of 10px solid #black to a .card-img selector.
+
+*/
