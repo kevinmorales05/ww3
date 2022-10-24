@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #25316D;
+    color: white;
+}
+.main {
+    display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   background-color:#97D2EC;
+}
+
+.blockInfo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    margin: 10px;
+    background-color: #5F6F94;
+    border-radius: 10px;
+    padding: 5px;
+    color: white;
+}
+.title {
+ font-weight: bold;
+ font-size: 40px;
+ padding-bottom: 0px;
+ margin-bottom: 0px;
+}
+.subtitle {
+    font-size: 20px;
+    padding-top: 0px;
+    margin-top: 0px;
+}
