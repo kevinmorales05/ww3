@@ -117,6 +117,10 @@ footer a:hover {
   width: 80px;
 }
 
+#hero-img {
+  width: 100%;
+}
+
 footer p {
   font-size: 1.2em;
 }
