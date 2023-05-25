@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Sigmar&family=Source+Sans+Pro:ital,wght@0,200;0,400;1,200&display=swap");
+
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #3b0d11;
@@ -6,8 +8,8 @@
   --accent2-color: #748386;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: "Sigmar", cursive;
-  --paragraph-font: "Source Sans Pro", sans-serif;
+  --heading-font: "Sigmar", cursive, "Arial Black", Helvetica;
+  --paragraph-font: "Source Sans Pro", sans-serif, Arial, Tahoma;
 
   /* these colors below should be chosen from among your palette colors above */
   --headline-color-on-white: var(
@@ -27,6 +29,20 @@
   --nav-hover-background-color: var(--accent2-color);
 }
 
+/*
+  reset
+*/
+body {
+  background-color: var(--accent2-color);
+  font-family: var(--paragraph-font);
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+}
+h2 {
+  margin: 0;
+}
+
 #content {
   max-width: 1600px;
   margin: 0 auto;
@@ -36,6 +52,7 @@ nav a {
   text-align: center;
   color: white;
   text-decoration: none;
+  padding: 35px;
 }
 #hero-msg h1,
 #hero-msg h4 {
@@ -47,16 +64,14 @@ nav a {
 main section {
   text-align: center;
 }
+main section img {
+  box-sizing: border-box;
+}
 #background {
   height: 725px;
   background-color: var(--accent1-color);
 }
-/*
-  Add background color
-*/
-body {
-  background-color: var(--accent2-color);
-}
+
 header {
   background-color: var(--accent1-color);
 }
@@ -69,6 +84,9 @@ nav a:hover {
   background-color: var(--primary-color);
   color: white;
   text-decoration: none;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 .book:hover,
 .join:hover {
@@ -76,12 +94,11 @@ nav a:hover {
   color: whitesmoke;
 }
 
-.msg {
-  background-color: var(--accent1-color);
-}
 footer {
   background-color: var(--accent1-color);
   color: white;
+  padding: 25px 50px;
+  margin-top: 200px;
 }
 /*
   Add color
@@ -89,16 +106,25 @@ footer {
 
 .home-title {
   color: var(--primary-color);
+  font-family: var(--heading-font);
+  font-size: 2em;
+  margin-top: 10px;
 }
 h4 {
   color: var(--primary-color);
 }
-
+.msg {
+  line-height: 1.5em;
+  background-color: var(--secondary-color);
+  padding: 35px;
+}
 .msg h2 {
   color: black;
+  font-family: var(--heading-font);
 }
 .msg p {
   color: black;
+  padding-bottom: 15px;
 }
 
 footer a {
@@ -108,13 +134,19 @@ footer a {
 footer a:hover {
   color: var(--primary-color);
 }
-
+footer .social img {
+  padding-top: 15px;
+}
 .logo {
   width: 80px;
+}
+#logo_link {
+  padding-top: 5px;
 }
 
 .icon {
   width: 80px;
+  padding-top: 10px;
 }
 
 #hero-img {
@@ -126,4 +158,13 @@ footer p {
 }
 footer p a:hover {
   text-decoration: underline;
+}
+
+.rivers-card,
+.camping-card,
+.rapids-card {
+  margin: 200px 0;
+}
+.card-img {
+  border: solid black;
 }
