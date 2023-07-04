@@ -112,6 +112,9 @@ footer {
   color: white;
   padding: 25px 50px;
   margin-top: 200px;
+  position: absolute;
+  bottom: 0;
+  width: 90%;
 }
 /*
   Add color
@@ -470,3 +473,5 @@ button {
        between the labels and their text fields */
   margin-left: 0.5em;
 }
+
+
