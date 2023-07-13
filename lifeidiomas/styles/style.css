@@ -116,6 +116,7 @@ nav a:hover {
 }
 #hero-img {
   width: 100%;
+  height: 700px;
 }
 #hero-msg {
   grid-column: 2/3;
@@ -255,7 +256,6 @@ New blocks
 }
 .info-block{
   display: grid;
-  grid-template-columns:repeat(1fr);
   margin: 0 auto;
 }
 .info-title {
@@ -320,7 +320,60 @@ border-radius: 15px;
   padding: 30px;
   border-radius: 10px;
 }
+/*
+Prices block
+*/
 
+.prices-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.combo1, .combo2 {
+height: 400px;
+width: 40%;
+margin: 40px;
+border-radius: 10px;
+text-decoration: none;
+}
+.combo1 {
+  background-image: url('../images/KoreaSite/japanSite.avif');
+
+}
+.combo2{
+  background-image: url('../images/KoreaSite/korea11.jpeg');
+
+}
+.combo-text {
+align-self: center;
+vertical-align: bottom;
+line-height: 300px;
+}
+/*
+footer life
+*/
+.footer-life {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--terceary-color);
+  height: fit-content;
+  vertical-align: middle;
+
+}
+.icon-social {
+  width: 100px;
+}
+.footer-text {
+  font-size: 14px;
+  line-height: 10px;
+}
+.footer-copy {
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 5px;
+  font-family: Merienda;
+  margin-top: 20px;
+}
 /*
 Responsive Design
 */
