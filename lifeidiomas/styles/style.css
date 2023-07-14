@@ -329,7 +329,7 @@ Prices block
   flex-direction: row;
   justify-content: center;
 }
-.combo1, .combo2 {
+.combo1, .combo2, .combo3 {
 height: 400px;
 width: 40%;
 margin: 40px;
@@ -342,6 +342,10 @@ text-decoration: none;
 }
 .combo2{
   background-image: url('../images/KoreaSite/korea11.jpeg');
+
+}
+.combo3 {
+  background-image: url('../images/KoreaSite/korea3.webp');
 
 }
 .combo-text {
