@@ -5,31 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" >
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Life Idiomas| Korea</title>
+    <link rel="stylesheet" href="./styles/style.css" >
   </head>
   <body>
-    <header>
-      <a  href="index.html">
-        <img class="" src="./images/logo/lifelogo.png" alt="Life Logo" >
-      </a>
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="./travel.html">Travel in Korea </a>
-        <a href="./travelToAsia.html">Travel to Asia</a>
-        <a href="contactus.html">Contact Us</a>
-      </nav>
-    </header>
-    <div >
-      <div >
-        <div >
+    <div id="content">
+      <header>
+        <a href="index.html" id="logo_link">
+          <img class="logo" src="./images/logo/lifelogo.png" alt="Life Logo" >
+        </a>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="./travelToKorea.html">Travel in Korea </a>
+          <a href="./travelToAsia.html">Travel to Asia</a>
+          <a href="contactus.html">Contact Us</a>
+        </nav>
+      </header>
+      <div id="hero">
+        <div id="hero-box">
           <img
-            
-            src="./images/KoreaSite/korea3.webp"
-            alt="People enjoying white water rafting"
+            id="hero-img"
+            src="./images/food.jpeg"
+            alt="Seul palace"
           >
         </div>
         <section id="hero-msg">
           <h1 class="home-title">More than K-Pop</h1>
-          <h4>
+          <h4 class="home-subtitle">
             The Republic of Korea is one of the richest and the most
             technological countries of the world. It is famous for K-Pop music,
             K-dramas, exotic food, beautiful temples among modern buildings. It
@@ -40,23 +41,31 @@
           </div>
         </section>
       </div>
-      <main>
-        <div>
-          <h2>Discover Korea</h2>
-          <div>
+      <main class="content-home">
+        <div class="info-block">
+          <h2 class="info-title">Discover Korea</h2>
+          <div class="info-descrip">
             <p>
               Life idiomas guide you through the crowded cities of Seoul and
               Busan to the amazing beaches in Jeju and more in order to give you
               an unforgettable experience in the land of your favorite singers
               and actors.
             </p>
-            <img src="./images//KoreaSite/korea4.webp" alt="" >
-            <img src="./images/KoreaSite/korea5.jpeg" alt="" >
+          </div>
+          <div class="info-picture1">
+            <img class="long-img" src="./images//KoreaSite/korea4.webp" alt="" >
+          </div>
+          <div class="info-picture2">
+            <img
+              class="short-img"
+              src="./images/KoreaSite/korea5.jpeg"
+              alt=""
+            >
           </div>
         </div>
-        <div>
-          <h2>Dates</h2>
-          <div>
+        <div class="info-block">
+          <h2 class="info-title">Dates</h2>
+          <div class="info-descrip-mirror">
             <p>
               The tours are organized in Spring and Autumn, the best seasons in
               Korea. The tour includes flight tickets from your country,
@@ -66,44 +75,64 @@
               The tour is 15 days long to discover and experience Seoul,
               Incheon, Busan and Jeju Island.
             </p>
-            <img src="./images/KoreaSite/korea6.jpeg" alt="" >
-            <img src="./images/KoreaSite/korea8.jpeg" alt="" >
+          </div>
+          <div class="info-picture1-mirror">
+            <img class="long-img" src="./images/KoreaSite/korea6.jpeg" alt="" >
+          </div>
+          <div class="info-picture2-mirror">
+            <img
+              class="short-img"
+              src="./images/KoreaSite/korea8.jpeg"
+              alt=""
+            >
           </div>
         </div>
         <div>
-          <h2>Prices</h2>
-            <div>
-              <p>All included</p>
-              <p>8500 USD</p>
-            </div>
-            <div>
-              <p>Standard</p>
-              <p>Not food and activities</p>
-              <p>6500 USD</p>
-            </div>
+          <h2 class="info-title">Prices</h2>
+          
+          <div class="prices-block">
+            <a  class="combo1 " href="./travelToAsia.html">
+              <p class="info-title2 fix-height">All included</p>
+              <p class="info-title2">8500 USD</p>
+
+            </a>
+
+            <a  class="combo2 " href="./travelToKorea.html">
+              <p class="info-title2 fix-height">Standard</p>
+              <p class="info-title3">Not food and activities</p>
+              <p class="info-title2">6500 USD</p>
+            </a>
+          </div>
         </div>
       </main>
-      <footer>
+      <footer class="footer-life">
         <div>
           <a href="https://instagram.com" target="_blank">
-            <img src="images/icons/instagram.png" alt="instagram icon" >
+            <img class="icon-social" src="images/icons/instagram.png" alt="instagram icon" >
           </a>
           <a href="https://facebook.com" target="_blank">
-            <img src="images/icons/facebook.png" alt="fb icon" >
+            <img class="icon-social" src="images/icons/facebook.png" alt="fb icon" >
           </a>
         </div>
         <div>
-          <p>Life Travel &copy; 2023 - Kevin Morales</p>
-          <p><b>Address</b></p>
-          <p>Manuel Alban y Luis Godin 12</p>
-          <p>Quito-Ecuador</p>
+          
+          <p class="footer-text"> Address</p>
+          <p class="footer-text">Manuel Alban y Luis Godin 12</p>
+          <p class="footer-text">Quito-Ecuador</p>
+          <p class="footer-copy">Life Travel &copy; 2023 - Kevin Morales</p>
+          <a
+          class="footer-text"
+          target="_blank"
+          href="./site-plan.html"
+          >Site Plan</a
+        >
         </div>
         <div>
           <a href="https://twitter.com" target="_blank">
-            <img src="images/icons/tiktok.png" alt="tiktok icon" >
+            <img class="icon-social" src="images/icons/tik-tok.png" alt="tiktok icon" >
           </a>
           <a href="https://twitter.com" target="_blank">
-            <img src="images/icons/youtube.png" alt="youtube icon" >
+            <img class="icon-social" src="images/icons/social.png" alt="youtube icon" >
           </a>
         </div>
       </footer>
